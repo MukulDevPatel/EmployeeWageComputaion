@@ -31,7 +31,7 @@ namespace EmployeeWageComputaion
                         empHour = 0;
                         break;
                 }
-                empWage = empHour * EMP_RATE_PER_HOUR * WORKING_DAYS;
+                empWage = empHour * EMP_RATE_PER_HOUR;
                 totalEmpWage += empWage;
                 Console.WriteLine("Employee Wage: " + empWage);
             }
