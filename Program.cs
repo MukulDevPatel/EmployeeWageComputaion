@@ -8,12 +8,10 @@ namespace EmployeeWageComputaion
         {
             Console.WriteLine("Welcome to Employee Wage Computaion program");
 
-            EmpWageBuilder dMart=new EmpWageBuilder("DMart", 20, 2, 10);
-            EmpWageBuilder reliance = new EmpWageBuilder("Reliance", 20, 4, 10);
-            dMart.computeEmpWage();
-            Console.WriteLine(dMart.toString());
-            reliance.computeEmpWage();
-            Console.WriteLine(reliance.toString());
+            EmpWageBuilderArray empWageBuilderArray = new EmpWageBuilderArray();
+            empWageBuilderArray.addCompanyEmpWage("DMart", 20, 20, 10);
+            empWageBuilderArray.addCompanyEmpWage("Reliance", 20, 19, 10);
+            empWageBuilderArray.computeEmpWage();
         }
     }
 }
