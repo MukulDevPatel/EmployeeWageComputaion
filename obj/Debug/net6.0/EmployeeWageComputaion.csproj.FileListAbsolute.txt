@@ -1,0 +1,15 @@
+D:\BridgeLabz Second batch\EmployeeWageComputation\bin\Debug\net6.0\EmployeeWageComputaion.exe
+D:\BridgeLabz Second batch\EmployeeWageComputation\bin\Debug\net6.0\EmployeeWageComputaion.deps.json
+D:\BridgeLabz Second batch\EmployeeWageComputation\bin\Debug\net6.0\EmployeeWageComputaion.runtimeconfig.json
+D:\BridgeLabz Second batch\EmployeeWageComputation\bin\Debug\net6.0\EmployeeWageComputaion.dll
+D:\BridgeLabz Second batch\EmployeeWageComputation\bin\Debug\net6.0\EmployeeWageComputaion.pdb
+D:\BridgeLabz Second batch\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputaion.csproj.AssemblyReference.cache
+D:\BridgeLabz Second batch\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputaion.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridgeLabz Second batch\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputaion.AssemblyInfoInputs.cache
+D:\BridgeLabz Second batch\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputaion.AssemblyInfo.cs
+D:\BridgeLabz Second batch\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputaion.csproj.CoreCompileInputs.cache
+D:\BridgeLabz Second batch\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputaion.dll
+D:\BridgeLabz Second batch\EmployeeWageComputation\obj\Debug\net6.0\refint\EmployeeWageComputaion.dll
+D:\BridgeLabz Second batch\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputaion.pdb
+D:\BridgeLabz Second batch\EmployeeWageComputation\obj\Debug\net6.0\EmployeeWageComputaion.genruntimeconfig.cache
+D:\BridgeLabz Second batch\EmployeeWageComputation\obj\Debug\net6.0\ref\EmployeeWageComputaion.dll
