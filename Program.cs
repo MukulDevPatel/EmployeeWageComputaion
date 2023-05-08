@@ -8,7 +8,8 @@ namespace EmployeeWageComputaion
         {
             Console.WriteLine("Welcome to Employee Wage Computaion program");
 
-            EmployeeWage.computeEmpWage();
+            EmployeeWage.computeEmpWage("DMart",20,2,10);
+            EmployeeWage.computeEmpWage("Reliance", 20, 4, 10);
         }
     }
 }
