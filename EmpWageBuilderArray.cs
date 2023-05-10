@@ -13,15 +13,18 @@ namespace EmployeeWageComputaion
         public const int IS_PART_TIME = 2;
 
         private ArrayList companyEmpWageArrayList;
+        private Dictionary<string, CompanyEmpWage> companyEmpWageMap;
 
         public EmpWageBuilderArray()
         {
             this.companyEmpWageArrayList = new ArrayList();
+            this.companyEmpWageMap = new Dictionary<string, CompanyEmpWage>();
         }
         public void addCompanyEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth)
         {
             CompanyEmpWage companyEmpWage = new CompanyEmpWage(company, empRatePerHour, numOfWorkingDays, maxHoursPerMonth);
             this.companyEmpWageArrayList.Add(companyEmpWage);
+            this.companyEmpWageMap.Add(company, companyEmpWage);
         }
         public void computeEmpWage()
         {
@@ -61,6 +64,10 @@ namespace EmployeeWageComputaion
                 Console.WriteLine("Day#: " + totalWorkingDays + " Emp Hrs: " + empHours + " Daily Wage: {0}",dailyWage);
             }
             return totalEmpHrs * companyEmpWage.empRatePerHour;
+        }
+        public int getTotalWage(string company)
+        {
+            return this.companyEmpWageMap[company].totalEmpWage;
         }
     }
 }
