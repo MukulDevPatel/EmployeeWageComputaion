@@ -56,8 +56,9 @@ namespace EmployeeWageComputaion
                         empHours = 0;
                         break;
                 }
+                int dailyWage = empHours * companyEmpWage.empRatePerHour;
                 totalEmpHrs += empHours;
-                Console.WriteLine("Day#: " + totalWorkingDays + " Emp Hrs: " + empHours);
+                Console.WriteLine("Day#: " + totalWorkingDays + " Emp Hrs: " + empHours + " Daily Wage: {0}",dailyWage);
             }
             return totalEmpHrs * companyEmpWage.empRatePerHour;
         }
